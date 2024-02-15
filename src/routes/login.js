@@ -1,5 +1,4 @@
 const { Router } = require("express");
-const { users } = require("../data/data");
 const { getHashedPassword } = require("../utils");
 const jwt = require('jsonwebtoken');
 const db = require("../db");

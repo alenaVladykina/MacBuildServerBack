@@ -1,8 +1,8 @@
-{"create":1708011446004,"update":1708011446004,"deadline":"Mon, 19 Feb 2024 21:00:00 GMT","title":"dfdf","status":"Done","description":"dfdfdf","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"KaRcurjmaz2p33U7"}
-{"create":1708010048473,"update":1708010048473,"deadline":"","title":"New Title","status":"In Progress","description":"","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"k8PVgCDNwHxi00wM"}
 {"create":1708022267441,"update":1708022267441,"deadline":"","title":"111","status":"In Progress","description":"","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"8msvmticM3HCRVnI"}
-{"create":1708022271811,"update":1708022271811,"deadline":"","title":"222","status":"In Progress","description":"","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"eF4BFPmjsuXF75NG"}
-{"create":1708022275729,"update":1708022275729,"deadline":"","title":"333","status":"In Progress","description":"","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"snw3F23Jmz98WmNU"}
-{"create":1708022275729,"update":1708022280750,"deadline":"","title":"33333","status":"In Progress","description":"","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"snw3F23Jmz98WmNU"}
-{"create":1708022275729,"update":1708022286959,"deadline":"","title":"33333","status":"In Progress","description":"3333","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"snw3F23Jmz98WmNU"}
+{"create":1708011446004,"update":1708011446004,"deadline":"Mon, 19 Feb 2024 21:00:00 GMT","title":"dfdf","status":"Done","description":"dfdfdf","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"KaRcurjmaz2p33U7"}
 {"create":1708022271811,"update":1708022292111,"deadline":"","title":"222","status":"In Progress","description":"333","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"eF4BFPmjsuXF75NG"}
+{"create":1708010048473,"update":1708010048473,"deadline":"","title":"New Title","status":"In Progress","description":"","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"k8PVgCDNwHxi00wM"}
+{"create":1708022275729,"update":1708022286959,"deadline":"","title":"33333","status":"In Progress","description":"3333","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"snw3F23Jmz98WmNU"}
+{"create":1708024813399,"update":1708024813399,"deadline":"","title":"fdfdf","status":"In Progress","description":"","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"ZNvh1q32XSfAqjnv"}
+{"$$deleted":true,"_id":"ZNvh1q32XSfAqjnv"}
+{"create":1708022267441,"update":1708024825559,"deadline":"","title":"111","status":"In Progress","description":"dfdf","priority":"High","userId":"28QkYmdTusgLdKxF","_id":"8msvmticM3HCRVnI"}
