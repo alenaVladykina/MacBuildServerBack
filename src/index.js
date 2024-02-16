@@ -18,7 +18,7 @@ app.use(parserMiddleware);
 app.use(require('cors')());
 
 app.use(session({
-    secret: 'keyboard ca',
+    secret: 'keyboard cat',
     resave: false,
     saveUninitialized: true,
     cookie: { maxAge: 6000000 },
