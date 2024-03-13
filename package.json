@@ -26,5 +26,7 @@
     "watch": "tsc -w",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
-  }
+  },
+  "repository": "",
+  "author": "alena <alen.sofronova@gmail.com>"
 }

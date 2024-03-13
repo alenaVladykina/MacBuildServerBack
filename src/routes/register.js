@@ -11,7 +11,7 @@ registerRouter.post('/', async (req, res) => {
     if (password !== confirmPassword) {
         return res.send({
             status: "error",
-            errorText: "password and confirmPassword no valid"
+            errorText: "Password and confirmPassword no valid"
         });
     }
 
@@ -20,7 +20,7 @@ registerRouter.post('/', async (req, res) => {
     if (user.length > 0) {
         return res.status(404).send({
             status: "error",
-            errorText: "this user already exists"
+            errorText: "This user already exists"
         });
     }
 
@@ -31,7 +31,7 @@ registerRouter.post('/', async (req, res) => {
     });
 
     res.send({
-        status: "ok"
+        status: "succses"
     });
 });
 

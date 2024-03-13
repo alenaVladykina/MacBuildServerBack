@@ -2,9 +2,8 @@ const express = require("express");
 const session = require('express-session');
 const FileStore = require('session-file-store')(session);
 const cookieParser = require('cookie-parser');
+const { log } = require("console");
 
-const tasksRouter = require("./routes/tasks");
-const taskRouter = require("./routes/task");
 const registerRouter = require("./routes/register");
 const loginRouter = require("./routes/login");
 const userRouter = require("./routes/user");
@@ -27,11 +26,12 @@ app.use(session({
 
 app.use(cookieParser());
 
-
 app.use('/register', registerRouter);
 app.use('/login', loginRouter);
 
+
 app.use((req, res, next) => {
+    log(req.session.userId)
     if (req.session.userId) {
         return next();
     }
@@ -42,8 +42,8 @@ app.use((req, res, next) => {
 });
 
 app.use('/user', userRouter);
-app.use('/tasks', tasksRouter);
-app.use('/task', taskRouter);
+
+
 
 app.listen(port);
 
